@@ -1,23 +1,23 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e-commerce-back-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is the back end for an e-commerce site. It will use Express.js and Sequelize to interact with a MySQL database.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js",
+    "watch": "./node_modules/.bin/nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git@github.com:rpajewski/e-commerce-back-end.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "rpajewski",
+  "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.6"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
